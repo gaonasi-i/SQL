@@ -2,7 +2,7 @@
 CREATE TABLE customer(
     custid NUMBER PRIMARY KEY,
     name VARCHAR2(60) NOT NULL,
-    address VARCHAR2(50),
+    name VARCHAR2(50),
     phone VARCHAR2(20)
 );
 
@@ -12,6 +12,9 @@ INSERT INTO customer VALUES (2, '김연아', '대한민국 서울', '000-6000-0001');
 INSERT INTO customer VALUES (3, '안산', '대한민국 광주광역시', '000-7000-0001');
 INSERT INTO customer VALUES (4, '류현진', '미국 토론토', NULL);
 INSERT INTO customer VALUES (5, '손흥민', '영국 토트넘', '000-8000-0001');
+INSERT INTO customer VALUES (6, '김하늘', '대한민국 성남시', '000-9000-0001');
+INSERT INTO customer VALUES (7, '박대양', '대한민국 용인시', '000-9000-0002');
+
 
 --자료검색
 SELECT * 
@@ -31,5 +34,4 @@ WHERE address LIKE '%대한민국%';
 SELECT *
 FROM customer
 ORDER BY name DESC;
-
 
