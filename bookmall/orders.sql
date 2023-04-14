@@ -12,6 +12,7 @@ CREATE TABLE orders(
     REFERENCES book(bookid)
 );
 
+DROP TABLE orders;
 --ÀÚ·á »ðÀÔ
 INSERT INTO orders VALUES (1, 1, 1, 6000, TO_DATE('2018-07-01', 'YYYY-MM-DD'));
 INSERT INTO orders VALUES (2, 1, 3, 21000, TO_DATE('2018-07-03', 'YYYY-MM-DD'));

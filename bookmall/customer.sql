@@ -20,6 +20,9 @@ INSERT INTO customer VALUES (7, '박대양', '대한민국 용인시', '000-9000-0002');
 SELECT * 
 FROM customer;
 
+DELETE customer;
+DROP TABLE customer;
+
 --전화번호가 없는 고객을 찾으시오
 SELECT *
 FROM customer
