@@ -5,6 +5,10 @@ SELECT ABS(-10), ABS(10) FROM dual;
 --반올림 : ROUND(수, 자리수)
 SELECT ROUND(3.875, 2) FROM DUAL;
 
+SELECT ROUND(3.875, 1) FROM DUAL;
+
+SELECT * FROM employee;
+
 --sal을 30일로 나눈후 소수 자리수에 따라 반올림한 값 출력
 SELECT sal 급여,
        sal/30 일급,

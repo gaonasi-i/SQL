@@ -2,7 +2,7 @@
 CREATE TABLE customer(
     custid NUMBER PRIMARY KEY,
     name VARCHAR2(60) NOT NULL,
-    name VARCHAR2(50),
+    address VARCHAR2(50),
     phone VARCHAR2(20)
 );
 
